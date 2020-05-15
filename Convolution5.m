@@ -23,7 +23,7 @@ hold on; ylabel('x[n]')
 %subplot(5,1,2);stem(t1,h)
 %axis([-lt,2*lt,min(h),max(h)])
 %hold on;ylabel('h[n]')
-for a=(1:length(h));
+for a=(1:length(h))
 hf(a)=s(a);
 subplot(5,1,2);stem(t1,hf)
 set(gcf,'color','w')
