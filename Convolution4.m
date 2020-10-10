@@ -79,7 +79,7 @@ end
 plot(x,f(-x,-4,1),'r')
 text (4,1.06,'h(x-¦Ó)'); 
 
-function[y]=f(x,i,q)
+function[y]=f(x,i,q)   
 y=zeros(1,length(x));
 x_pos=find((x>=(0+i))&(x<(2+i)));
 y(x_pos)=q;
